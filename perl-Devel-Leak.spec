@@ -5,7 +5,7 @@ Summary:	Devel::Leak perl module
 Summary(pl):	Modu³ perla Devel::Leak
 Name:		perl-Devel-Leak
 Version:	0.02
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
