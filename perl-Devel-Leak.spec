@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	Leak
-Summary:	Devel-Leak perl module
-Summary(pl):	Modu³ perla Devel-Leak
+Summary:	Devel::Leak perl module
+Summary(pl):	Modu³ perla Devel::Leak
 Name:		perl-Devel-Leak
 Version:	0.02
 Release:	5
@@ -14,11 +14,11 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Devel-Leak - Utility for looking for perl objects that are not
+Devel::Leak - Utility for looking for perl objects that are not
 reclaimed.
 
 %description -l pl
-Modu³ perla Devel-Leak.
+Modu³ perla Devel::Leak.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
