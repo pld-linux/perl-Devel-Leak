@@ -6,7 +6,7 @@
 %define		pdir	Devel
 %define		pnam	Leak
 Summary:	Devel::Leak - utility for looking for Perl objects that are not reclaimed
-Summary(pl):	Devel::Leak - narzêdzie do wyszukiwania niezwolnionych obiektów Perla 
+Summary(pl.UTF-8):   Devel::Leak - narzÄ™dzie do wyszukiwania niezwolnionych obiektÃ³w Perla 
 Name:		perl-Devel-Leak
 Version:	0.03
 Release:	1
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Devel::Leak is a utility for looking for Perl objects that are not
 reclaimed.
 
-%description -l pl
-Devel::Leak jest narzêdziem s³u¿±cym do wyszukiwania niezwolnionych
-obiektów Perla.
+%description -l pl.UTF-8
+Devel::Leak jest narzÄ™dziem sÅ‚uÅ¼Ä…cym do wyszukiwania niezwolnionych
+obiektÃ³w Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
