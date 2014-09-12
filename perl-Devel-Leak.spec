@@ -54,6 +54,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{perl_vendorarch}/Devel/Leak.pm
 %dir %{perl_vendorarch}/auto/Devel/Leak
-%{perl_vendorarch}/auto/Devel/Leak/Leak.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Devel/Leak/Leak.so
 %{_mandir}/man3/*
