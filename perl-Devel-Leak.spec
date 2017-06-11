@@ -9,7 +9,7 @@ Summary:	Devel::Leak - utility for looking for Perl objects that are not reclaim
 Summary(pl.UTF-8):	Devel::Leak - narzędzie do wyszukiwania niezwolnionych obiektów Perla 
 Name:		perl-Devel-Leak
 Version:	0.03
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
